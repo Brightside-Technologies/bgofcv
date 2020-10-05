@@ -53,12 +53,10 @@ virtualSchedule:
         subject: "New Beginnings (Girls Only) with Sofia"
   - day: "Fri"
     dayNumber: 5
-    start: 11
+    start: 14
     end: 16
-    isOff: true
+    isOff: false
     slots:
-      - time: "11:00am - 11:30am"
-        subject: "Math Tutoring with Ms. Nunez"
       - time: "02:00pm - 02:45pm"
         subject: "Teen Time with Ronnie"
       - time: "03:00pm - 03:45pm"
