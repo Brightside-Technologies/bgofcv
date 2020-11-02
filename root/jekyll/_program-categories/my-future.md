@@ -33,8 +33,8 @@ programs:
     description: >-
       NetSmartz teaches Internet safety skills through engaging multimedia
       activities and offline interaction with Club professionals in three
-      age-appropriate modules&colon; Clicky's Web World (for ages 6 to 7);
-      NetSmartz Rules (for ages 8 to 12); and I-360 (for ages 13 to 18). /n To
+      age-appropriate modules; Clicky's Web World (for ages 6 to 7);
+      NetSmartz Rules (for ages 8 to 12); and I-360 (for ages 13 to 18). To
       learn more, youth ages 12 and younger can go directly to
       [netsmartz.org](netsmartz.org). Funded by the U.S. Department of Justice,
       Office of Justice Programs.
