@@ -15,7 +15,7 @@ programs:
       by involving them in discussion and role-playing, practicing resistance
       and refusal skills, developing assertiveness, strengthening
       decision-making skills and analyzing media and peer influence. The
-      ultimate goal&colon; to promote abstinence from substance abuse and
+      ultimate goal: to promote abstinence from substance abuse and
       adolescent sexual involvement through the practice of responsible
       behavior.
     image: assets/images/smart-moves.png
@@ -31,7 +31,7 @@ programs:
     description: >-
       Passport to Manhood consists of 14 sessions, each concentrating on a
       specific aspect of character and manhood through highly interactive
-      activities. /n Each Club member receives his own “passport” to underscore
+      activities.  Each Club member receives his own “passport” to underscore
       the notion that he is on a personal journey of maturation and growth.
       Passport to Manhood also includes a service project where boys learn the
       importance of giving back to their community.

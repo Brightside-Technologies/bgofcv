@@ -8,7 +8,7 @@ description: >-
 thumb: /assets/images/image-1.jpg
 hero: /assets/images/image-1.jpg
 programs:
-  - title: 'Million Members, Million Hours of Service'
+  - title: "Million Members, Million Hours of Service"
     description: >-
       Studies show that young people who engage in service do better in school,
       maintain positive relationships with adults and avoid risky behaviors.
@@ -28,7 +28,7 @@ programs:
     description: >-
       This unique leadership development experience provides opportunities for
       young people ages 14 to 18. Club teens participate, both in and out of the
-      Club, in activities in three focus areas&colon; academic success, career
+      Club, in activities in three focus areas: academic success, career
       preparation and community service. With the guidance of an adult advisor,
       [Keystone Clubs]() aim to have a positive impact on members, the Club and
       their community.
