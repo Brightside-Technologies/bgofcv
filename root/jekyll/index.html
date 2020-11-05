@@ -288,7 +288,7 @@ permalink: index.html
                 <h2 class="text-center section-header">Community Impact</h2>
                 <p class="lead">{{page.history | smartify | markdownify | replace: "<p>" | replace: "</p>"}}</p>
                 <p class="lead">{{page.impact | smartify | markdownify | replace: "<p>" | replace: "</p>"}}</p>
-                {% if site.data.global.impactReport %}
+                {%- comment -%} {% if site.data.global.impactReport %}
                 <div class="d-flex flex-sm-row flex-column justify-content-center py-3">
                     <a
                         href="{{ site.data.global.impactReport.file }}"
@@ -305,7 +305,7 @@ permalink: index.html
                         > <i class="far fa-arrow-alt-circle-down"></i> {{site.data.global.annualReport.reportName}}</a
                     >
                 </div>
-                {% endif %}
+                {% endif %} {%- endcomment -%}
             </div>
         </div>
     </div>
