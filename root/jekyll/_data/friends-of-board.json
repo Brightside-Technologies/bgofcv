@@ -1,76 +1,76 @@
 {
-    "friends": [
-        {
-            "name": "Janet Obradovich",
-            "title": "President"
-        },
-        {
-            "name": "Esther Gelineau",
-            "title": "Immediate Past President"
-        },
-        {
-            "name": "Margo Ritter",
-            "title": "Spring Event Chair, Corresponding Secretary"
-        },
-        {
-            "name": "Kelly Flanagan",
-            "title": "Fall Event Chair"
-        },
-        {
-            "name": "Joan Lizza",
-            "title": "Secretary"
-        },
-        {
-            "name": "Kate Graham",
-            "title": "Treasurer"
-        },
-        {
-            "name": "Sandy Taylor",
-            "title": "Grand Auction Chair"
-        },
-        {
-            "name": "Denise Maddux",
-            "title": ""
-        },
-        {
-            "name": "Donna Logan",
-            "title": ""
-        },
-        {
-            "name": "Gail Gallaudet",
-            "title": ""
-        },
-        {
-            "name": "Gee Gee Hanson",
-            "title": ""
-        },
-        {
-            "name": "Harriet Hanson",
-            "title": ""
-        },
-        {
-            "name": "Joan Mandala",
-            "title": ""
-        },
-        {
-            "name": "Linda Aliberti",
-            "title": ""
-        },
-        {
-            "name": "Maureen Liebman",
-            "title": ""
-        },
-        {
-            "name": "Rondi Edwards",
-            "title": ""
-        },
-        {
-            "name": "Shirley Chuchian",
-            "title": ""
-        },
-        {
-            "name": "Tammy Kirkjan  ",
-            "title": ""
-        }
-    ]
+  "friends": [
+    {
+      "name": "Janet Obradovich",
+      "title": "President"
+    },
+    {
+      "name": "Esther Gelineau",
+      "title": "Immediate Past President"
+    },
+    {
+      "name": "Margo Ritter",
+      "title": "Spring Event Chair, Corresponding Secretary"
+    },
+    {
+      "name": "Kelly Flanagan",
+      "title": "Fall Event Chair"
+    },
+    {
+      "name": "Joan Lizza",
+      "title": "Secretary"
+    },
+    {
+      "name": "Kate Graham",
+      "title": "Treasurer"
+    },
+    {
+      "name": "Sandy Taylor",
+      "title": "Grand Auction Chair"
+    },
+    {
+      "name": "Linda Aliberti",
+      "title": ""
+    },
+    {
+      "name": "Shirley Chuchian",
+      "title": ""
+    },
+    {
+      "name": "Rondi Edwards",
+      "title": ""
+    },
+    {
+      "name": "Gail Gallaudet",
+      "title": ""
+    },
+    {
+      "name": "Gee Gee Hanson",
+      "title": ""
+    },
+    {
+      "name": "Harriet Hanson",
+      "title": ""
+    },
+    {
+      "name": "Tammy Kirkjan  ",
+      "title": ""
+    },
+    {
+      "name": "Maureen Liebman",
+      "title": ""
+    },
+    {
+      "name": "Donna Logan",
+      "title": ""
+    },
+    {
+      "name": "Denise Maddux",
+      "title": ""
+    },
+    {
+      "name": "Joan Mandala",
+      "title": ""
+    }
+  ]
 }

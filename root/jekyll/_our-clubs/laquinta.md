@@ -82,7 +82,7 @@ virtualSchedule:
     dayNumber: 4
     start: 15
     end: 16
-    isOff: false
+    isOff: true
     slots:
       - time: "3:00pm - 3:45pm"
         subject: "First Talk with Mike "
