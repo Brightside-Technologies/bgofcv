@@ -1,152 +1,168 @@
 {
-    "board-members": [
-        {
-            "name": "Clara R. Levrault",
-            "title": "Chair"
-        },
-        {
-            "name": "Lee Osborne",
-            "title": "Vice Chair"
-        },
-        {
-            "name": "Judy Vossler",
-            "title": "Secretary"
-        },
-        {
-            "name": "David A. Peat",
-            "title": "Treasurer"
-        },
-        {
-            "name": "Douglas P. Miller",
-            "title": "Immediate Past Chair"
-        },
-        {
-            "name": "Anthony Caridi",
-            "title": ""
-        },
-        {
-            "name": "Brian Tobey",
-            "title": ""
-        },
-        {
-            "name": "Carlos Campos",
-            "title": ""
-        },
-        {
-            "name": "Dana Crosby",
-            "title": ""
-        },
-        {
-            "name": "Darrell Mike",
-            "title": ""
-        },
-        {
-            "name": "David Cantwell",
-            "title": ""
-        },
-        {
-            "name": "Dominique Shwe",
-            "title": ""
-        },
-        {
-            "name": "Donald Pelegrino",
-            "title": ""
-        },
-        {
-            "name": "Esther Gelineau",
-            "title": ""
-        },
-        {
-            "name": "George Kirkjan",
-            "title": ""
-        },
-        {
-            "name": "Glenn Miller",
-            "title": ""
-        },
-        {
-            "name": "Greg Raumin",
-            "title": ""
-        },
-        {
-            "name": "James Jackson",
-            "title": ""
-        },
-        {
-            "name": "Janet Obradovich",
-            "title": ""
-        },
-        {
-            "name": "Joe Benitez",
-            "title": ""
-        },
-        {
-            "name": "John Foster",
-            "title": ""
-        },
-        {
-            "name": "Jose Fernandez, M.D",
-            "title": ""
-        },
-        {
-            "name": "Mark Nickerson",
-            "title": ""
-        },
-        {
-            "name": "Mark Simon",
-            "title": ""
-        },
-        {
-            "name": "Michael Stutz",
-            "title": ""
-        },
-        {
-            "name": "Mike Carl",
-            "title": ""
-        },
-        {
-            "name": "Mike Way",
-            "title": ""
-        },
-        {
-            "name": "Oscar Lua",
-            "title": ""
-        },
-        {
-            "name": "Randy Florence",
-            "title": ""
-        },
-        {
-            "name": "Reid Jenkins",
-            "title": ""
-        },
-        {
-            "name": "Robert Archer",
-            "title": ""
-        },
-        {
-            "name": "Robert Bianco",
-            "title": ""
-        },
-        {
-            "name": "Rondi Edwards",
-            "title": ""
-        },
-        {
-            "name": "Sandy Taylor",
-            "title": ""
-        },
-        {
-            "name": "Sue Steding",
-            "title": ""
-        },
-        {
-            "name": "Tony Reagins",
-            "title": ""
-        },
-        {
-            "name": "Wally Grimm",
-            "title": ""
-        }
-    ]
+  "board-members": [
+    {
+      "name": "Clara R. Levrault",
+      "title": "Chair"
+    },
+    {
+      "name": "Lee Osborne",
+      "title": "Vice Chair & Treasurer"
+    },
+    {
+      "name": "Judy Vossler",
+      "title": "Secretary"
+    },
+    {
+      "name": "Douglas P. Miller",
+      "title": "Immediate Past Chair"
+    },
+    {
+      "name": "Robert Archer",
+      "title": ""
+    },
+    {
+      "name": "Joe Benitez",
+      "title": ""
+    },
+    {
+      "name": "Robert O. Bianco",
+      "title": ""
+    },
+    {
+      "name": "Carlos Campos",
+      "title": ""
+    },
+    {
+      "name": "David Cantwell",
+      "title": ""
+    },
+    {
+      "name": "Anthony Caridi",
+      "title": ""
+    },
+    {
+      "name": "Mike Carl",
+      "title": ""
+    },
+    {
+      "name": "Dana Crosby",
+      "title": ""
+    },
+    {
+      "name": "Rondi Edwards",
+      "title": ""
+    },
+    {
+      "name": "Jose L. Fernandez, M.D",
+      "title": ""
+    },
+    {
+      "name": "Randy Florence",
+      "title": ""
+    },
+    {
+      "name": "John Foster",
+      "title": ""
+    },
+    {
+      "name": "Esther Gelineau",
+      "title": ""
+    },
+    {
+      "name": "Kate Graham",
+      "title": ""
+    },
+    {
+      "name": "Wally Grimm",
+      "title": ""
+    },
+    {
+      "name": "Brian Harnik",
+      "title": ""
+    },
+    {
+      "name": "James A. Jackson",
+      "title": ""
+    },
+    {
+      "name": "Reid Jenkins",
+      "title": ""
+    },
+    {
+      "name": "Peter Kim",
+      "title": ""
+    },
+    {
+      "name": "George Kirkjan",
+      "title": ""
+    },
+    {
+      "name": "Oscar Lua",
+      "title": ""
+    },
+    {
+      "name": "Darrell Mike",
+      "title": ""
+    },
+    {
+      "name": "Glenn Miller",
+      "title": ""
+    },
+    {
+      "name": "Mark Nickerson",
+      "title": ""
+    },
+    {
+      "name": "Janet Obradovich",
+      "title": ""
+    },
+    {
+      "name": "David A. Peat",
+      "title": ""
+    },
+    {
+      "name": "Donald A. Pelegrino, Ph.D",
+      "title": ""
+    },
+    {
+      "name": "Greg Raumin",
+      "title": ""
+    },
+    {
+      "name": "Tony Reagins",
+      "title": ""
+    },
+    {
+      "name": "Margo Ritter",
+      "title": ""
+    },
+    {
+      "name": "Dominique Shwe",
+      "title": ""
+    },
+    {
+      "name": "Mark D. Simon",
+      "title": ""
+    },
+    {
+      "name": "Sue Steding",
+      "title": ""
+    },
+    {
+      "name": "Michael Stutz",
+      "title": ""
+    },
+    {
+      "name": "Sandy Taylor",
+      "title": ""
+    },
+    {
+      "name": "Brian Tobey",
+      "title": ""
+    },
+    {
+      "name": "Mike Way",
+      "title": ""
+    }
+  ]
 }
