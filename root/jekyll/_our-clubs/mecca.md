@@ -31,36 +31,34 @@ virtualSchedule:
     dayNumber: 2
     start: 14
     end: 15
-    isOff: false
+    isOff: true
     slots:
       - time: "2:00pm - 2:45pm"
         subject: "Healthy Habits with Erika"
   - day: "Wed"
     dayNumber: 3
-    start: 11
-    end: 12
-    isOff: true
+    start: 12
+    end: 3
+    isOff: false
     slots:
-      - time: "11:00am - 11:30am"
-        subject: "Math Tutoring with Ms. Nunez"
+      - time: "12:00pm - 1:00pm"
+        subject: "Healthy Habits with Leslie and Veronica"
   - day: "Thu"
     dayNumber: 4
     start: 14
-    end: 13
+    end: 15
     isOff: false
     slots:
-      - time: "2:00pm - 2:45pm"
-        subject: "New Beginnings (Girls Only) with Sofia"
+      - time: "2:00pm - 3:00pm"
+        subject: "New Beginnings with Sofia"
   - day: "Fri"
     dayNumber: 5
-    start: 14
+    start: 15
     end: 16
     isOff: false
     slots:
-      - time: "02:00pm - 02:45pm"
+      - time: "3:00pm - 4:00pm"
         subject: "Teen Time with Ronnie"
-      - time: "03:00pm - 03:45pm"
-        subject: "Palabra with Ronnie"
 ---
 
 A state-of-the-art facility where members can enjoy games, sports activities, technology, and more! Our Joel E. Smilow Clubhouse currently serves 1,000 youth in Mecca and surrounding cities. In a partnership with the County of Riverside, this Club opened in 2011.
