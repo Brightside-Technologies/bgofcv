@@ -38,7 +38,7 @@ virtualSchedule:
   - day: "Wed"
     dayNumber: 3
     start: 12
-    end: 3
+    end: 15
     isOff: false
     slots:
       - time: "12:00pm - 1:00pm"
