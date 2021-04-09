@@ -50,7 +50,7 @@ virtualSchedule:
     isOff: false
     slots:
       - time: "2:00pm - 3:00pm"
-        subject: "New Beginnings with Sofia"
+        subject: "Girl Power with Sofia"
   - day: "Fri"
     dayNumber: 5
     start: 15
