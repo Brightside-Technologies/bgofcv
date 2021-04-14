@@ -3,163 +3,222 @@ layout: site-layout
 title: Why Giving Matters
 hero: assets/images/ways-to-give-1.jpg
 description: >-
-    Last year **6,500** youth participated in life-changing programs and fun
-    activities at one of our four clubhouses throughout the Coachella Valley. It
-    costs **$500 per child** to provide program and activities for an entire year.
-    Join our life-changing movement by giving a gift that lasts a lifetime in
-    support of our Clubs!
+  Last year **6,500** youth participated in life-changing programs and fun
+  activities at one of our four clubhouses throughout the Coachella Valley. It
+  costs **$500 per child** to provide program and activities for an entire year.
+  Join our life-changing movement by giving a gift that lasts a lifetime in
+  support of our Clubs!
 video:
-    description: >-
-        Long ago, the mice had a general council to consider what measures they
-        could take to outwit their common enemy, the Cat
-    header: Lorem Ipsum
-    youtubeId: iHsLgK3zbiA
+  description: >-
+    Long ago, the mice had a general council to consider what measures they
+    could take to outwit their common enemy, the Cat
+  header: Lorem Ipsum
+  youtubeId: iHsLgK3zbiA
 permalink: ways-to-give.html
 ---
 
 <section class="hero-cascade">
-    <div
-        style="background: url({{ page.hero | absolute_url }});"
-        class="hero-view bg-image-fill position-relative p-5"
-    ></div>
-    <div
-        class="d-flex flex-column align-items-center col-sm-11 col-md-8 col-lg-7 mx-auto hero-content shadow bg-white rounded p-3"
+  <div
+    style="background: url({{ page.hero | absolute_url }});"
+    class="hero-view bg-image-fill position-relative p-5"
+  ></div>
+  <div
+    class="d-flex flex-column align-items-center col-sm-11 col-md-8 col-lg-7 mx-auto hero-content shadow bg-white rounded p-3"
+  >
+    <h1 class="text-center section-header underline">{{ page.title }}</h1>
+    <div class="lead pt-3 px-3">{{ page.description | markdownify }}</div>
+    <a
+      href="{{ site.data.global.donateUrl }}"
+      target="_blank"
+      rel="noopener"
+      role="button"
+      class="shadow btn btn-secondary mb-2"
+      >DONATE NOW</a
     >
-        <h1 class="text-center section-header underline">{{ page.title }}</h1>
-        <div class="lead pt-3 px-3">{{ page.description | markdownify }}</div>
-        <a
+  </div>
+</section>
+<section class="py-5">
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card border-0">
+          <img
+            src="/assets/images/amazon-smile.jpg"
+            class="card-img"
+            alt="Amazon Smile Link"
+          />
+          <div class="card-img-overlay">
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+              href="https://www.amazon.com/gp/f.html?C=GHX59XMR10T2&K=2I3Y24J5WH6AK&M=urn:rtn:msg:20171106150322d84625602d164237817787092380p0na&R=328CP6WVMOR9K&T=C&U=http%3A%2F%2Fsmile.amazon.com%2Fch%2F95-6122699&A=O35CWAPLE9IKEXRIFOSNSVSRCA8A&H=90S8F6FMJ5H9VP4L0CM4C4SA2AKA"
+              class="stretched-link"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="my-5 py-5 bg-primary">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-sm-12 d-flex justify-content-center flex-column align-items-center"
+      >
+        <h3 class="text-center mb-3 text-white">Ways to Give</h3>
+        <p class="pb-5 text-white">
+          All donations are tax deductible. Federal Tax ID Number 95-6122699
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-3"
+        >
+          <i
+            class="display-4 fa fa-credit-card text-white font-weight-bold"
+            aria-hidden="true"
+          ></i>
+          <a
             href="{{ site.data.global.donateUrl }}"
             target="_blank"
             rel="noopener"
-            role="button"
-            class="shadow btn btn-secondary mb-2"
-            >DONATE NOW</a
-        >
-    </div>
-</section>
-<section class="my-5 py-5 bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 d-flex justify-content-center flex-column align-items-center">
-                <h3 class="text-center mb-3 text-white">Ways to Give</h3>
-                <p class="pb-5 text-white">All donations are tax deductible. Federal Tax ID Number 95-6122699</p>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="d-flex flex-column justify-content-center align-items-center p-3">
-                    <i class="display-4 fa fa-credit-card text-white font-weight-bold" aria-hidden="true"></i>
-                    <a
-                        href="{{ site.data.global.donateUrl }}"
-                        target="_blank"
-                        rel="noopener"
-                        class="stretched-link text-center text-white m-0 font-weight-bold"
-                        >Credit Card</a
-                    >
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="d-flex flex-column justify-content-center align-items-center p-3">
-                    <i class="text-white display-4 fas fa-money-check"></i>
-                    <p class="text-center text-white m-0 font-weight-bold">Check</p>
-                    <small class="text-white">42600 Cook Street, Ste 120 Palm Desert, CA 92211</small>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="d-flex flex-column justify-content-center align-items-center p-3">
-                    <i class="text-white display-4 fas fa-phone"></i>
-                    <p class="text-center text-white m-0 font-weight-bold">Phone</p>
-                    <small class="text-white"><a class="text-white font-weight-bold" style="text-decoration: underline" href="tel:7608361160;107">760-836-1160 ext. 107</a></small>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="d-flex flex-column justify-content-center align-items-center p-3">
-                    <i class="text-white display-4 fas fa-exchange-alt"></i>
-                    <a
-                        href="{{ site.data.global.donateUrl }}"
-                        target="_blank"
-                        rel="noopener"
-                        class="stretched-link text-center text-white m-0 font-weight-bold"
-                        >Electronic Funds</a
-                    >
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="d-flex flex-column justify-content-center align-items-center p-3">
-                    <i class="text-white display-4 fas fa-hand-holding-usd"></i>
-                    <p class="text-center text-white m-0 font-weight-bold">Appreciated Funds</p>
-                    <small class="text-white"><a class="text-white font-weight-bold" style="text-decoration: underline" href="tel:7608361160;107">760-836-1160 ext. 107</a></small>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <form
-                    action="https://www.paypal.com/cgi-bin/webscr"
-                    id="paypal-form"
-                    method="post"
-                    target="_blank"
-                    class="d-flex flex-column justify-content-center align-items-center p-3 position-relative"
-                >
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="9SP9PWBGH6B22" />
-                    <i class="text-white display-4 fab fa-paypal"></i>
-                    <a
-                        href="#"
-                        class="font-weight-bold btn btn-link text-white stretched-link p-0"
-                        role="button"
-                        onclick="document.getElementById('paypal-form').submit();"
-                        >Paypal</a
-                    >
-                </form>
-            </div>
-            <div class="col-sm-12">
-                <p class="lead pt-5 text-white text-center">
-                    For <strong>planned giving</strong> click
-                    <a
-                        href="{{ 'assets/planned-giving-bequests.pdf' | absolute_url }}"
-                        target="_blank"
-                        class="font-weight-bold text-white"
-                        rel="noopener noreferrer"
-                        >here</a
-                    >
-                </p>
-            </div>
+            class="stretched-link text-center text-white m-0 font-weight-bold"
+            >Credit Card</a
+          >
         </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-3"
+        >
+          <i class="text-white display-4 fas fa-money-check"></i>
+          <p class="text-center text-white m-0 font-weight-bold">Check</p>
+          <small class="text-white"
+            >42600 Cook Street, Ste 120 Palm Desert, CA 92211</small
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-3"
+        >
+          <i class="text-white display-4 fas fa-phone"></i>
+          <p class="text-center text-white m-0 font-weight-bold">Phone</p>
+          <small class="text-white"
+            ><a
+              class="text-white font-weight-bold"
+              style="text-decoration: underline"
+              href="tel:7608361160;107"
+              >760-836-1160 ext. 107</a
+            ></small
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-3"
+        >
+          <i class="text-white display-4 fas fa-exchange-alt"></i>
+          <a
+            href="{{ site.data.global.donateUrl }}"
+            target="_blank"
+            rel="noopener"
+            class="stretched-link text-center text-white m-0 font-weight-bold"
+            >Electronic Funds</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-3"
+        >
+          <i class="text-white display-4 fas fa-hand-holding-usd"></i>
+          <p class="text-center text-white m-0 font-weight-bold">
+            Appreciated Funds
+          </p>
+          <small class="text-white"
+            ><a
+              class="text-white font-weight-bold"
+              style="text-decoration: underline"
+              href="tel:7608361160;107"
+              >760-836-1160 ext. 107</a
+            ></small
+          >
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <form
+          action="https://www.paypal.com/cgi-bin/webscr"
+          id="paypal-form"
+          method="post"
+          target="_blank"
+          class="d-flex flex-column justify-content-center align-items-center p-3 position-relative"
+        >
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="9SP9PWBGH6B22" />
+          <i class="text-white display-4 fab fa-paypal"></i>
+          <a
+            href="#"
+            class="font-weight-bold btn btn-link text-white stretched-link p-0"
+            role="button"
+            onclick="document.getElementById('paypal-form').submit();"
+            >Paypal</a
+          >
+        </form>
+      </div>
+      <div class="col-sm-12">
+        <p class="lead pt-5 text-white text-center">
+          For <strong>planned giving</strong> click
+          <a
+            href="{{ 'assets/planned-giving-bequests.pdf' | absolute_url }}"
+            target="_blank"
+            class="font-weight-bold text-white"
+            rel="noopener noreferrer"
+            >here</a
+          >
+        </p>
+      </div>
     </div>
+  </div>
 </section>
 <section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 my-1">
-                <div class="card border-0 shadow h-100">
-                    {% include img_srcset.html class="card-img-top" alt="One Time Donation" style="height: 300px"
-                    filename="presidents-circle.jpg"%}
-                    <div class="card-body px-1 d-flex flex-column align-items-center">
-                        <div>
-                            <a
-                                href="{{ 'ways-to-give/presidents-circle.html' | absolute_url }}"
-                                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
-                            >
-                                Presidents Circle
-                            </a>
-                        </div>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+        <div class="card border-0 shadow h-100">
+          {% include img_srcset.html class="card-img-top" alt="One Time
+          Donation" style="height: 300px" filename="presidents-circle.jpg"%}
+          <div class="card-body px-1 d-flex flex-column align-items-center">
+            <div>
+              <a
+                href="{{ 'ways-to-give/presidents-circle.html' | absolute_url }}"
+                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
+              >
+                Presidents Circle
+              </a>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 my-1">
-                <div class="card border-0 shadow h-100">
-                    {% include img_srcset.html class="card-img-top" alt="Friends of Boys and Girls Club Coachella Valley
-                    " style="height: 300px" filename="friends-of-bgcofcv.jpg" %}
-                    <div class="card-body px-1 d-flex flex-column align-items-center">
-                        <div>
-                            <a
-                                href="{{ 'ways-to-give/friends.html' | absolute_url }}"
-                                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
-                            >
-                                Friends
-                            </a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+        <div class="card border-0 shadow h-100">
+          {% include img_srcset.html class="card-img-top" alt="Friends of Boys
+          and Girls Club Coachella Valley " style="height: 300px"
+          filename="friends-of-bgcofcv.jpg" %}
+          <div class="card-body px-1 d-flex flex-column align-items-center">
+            <div>
+              <a
+                href="{{ 'ways-to-give/friends.html' | absolute_url }}"
+                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
+              >
+                Friends
+              </a>
             </div>
-            <!-- <div class="col-sm-12 col-md-6 col-lg-3">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card border-0 my-1 shadow h-100">
                     {% include img_srcset.html class="card-img-top" alt="One Time Donation" style="height: 300px"
                     filename="ways-to-give-1.jpg"%}
@@ -177,28 +236,29 @@ permalink: ways-to-give.html
                     </div>
                 </div>
             </div> -->
-            <div class="col-sm-12 col-md-6 col-lg-4 my-1">
-                <div class="card border-0 shadow h-100">
-                    {% include img_srcset.html class="card-img-top" alt="Become a Fundraiser" style="height: 300px"
-                    filename="kids.jpg" %}
-                    <div class="card-body px-1 d-flex flex-column align-items-center">
-                        <div>
-                            <a
-                                href="https://www.facebook.com/fund/bgcvclubs/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
-                            >
-                                Donate your birthday on Facebook!
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+        <div class="card border-0 shadow h-100">
+          {% include img_srcset.html class="card-img-top" alt="Become a
+          Fundraiser" style="height: 300px" filename="kids.jpg" %}
+          <div class="card-body px-1 d-flex flex-column align-items-center">
+            <div>
+              <a
+                href="https://www.facebook.com/fund/bgcvclubs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
+              >
+                Donate your birthday on Facebook!
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-{%- comment -%} <!-- <section class="py-5 bg-light">
+{%- comment -%}
+<!-- <section class="py-5 bg-light">
     <div class="container">
         <div class="row bg-light">
             <div class="col-sm-12 d-flex flex-column align-items-center justify-content-center">
@@ -224,36 +284,39 @@ permalink: ways-to-give.html
             </div>
         </div>
     </div>
-</section> --> {%- endcomment -%}
+</section> -->
+{%- endcomment -%}
 <section class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12"><h2 class="section-header text-center pb-4">Partners</h2></div>
-            {% for partner in site.data.partners.partners %}
-            <div
-                class="col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex flex-column py-2 align-items-center justify-content-center"
-            >
-                <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer">
-                    <figure
-                        style="width: 100%;
-                                    height: 100px;
-                                    overflow: hidden;
-                                    -moz-border-radius: 8px;
-                                    border-radius: 8px;"
-                    >
-                        <img
-                            style="width: 100%;
-                        height: 100%;
-                        object-fit: scale-down;"
-                            class="img-fluid"
-                            src="{{ partner.logo | absolute_url }}"
-                            alt="{{ partner.name }}"
-                            title="{{ partner.name }}"
-                        />
-                    </figure>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-header text-center pb-4">Partners</h2>
+      </div>
+      {% for partner in site.data.partners.partners %}
+      <div
+        class="col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex flex-column py-2 align-items-center justify-content-center"
+      >
+        <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer">
+          <figure
+            style="
+              width: 100%;
+              height: 100px;
+              overflow: hidden;
+              -moz-border-radius: 8px;
+              border-radius: 8px;
+            "
+          >
+            <img
+              style="width: 100%; height: 100%; object-fit: scale-down"
+              class="img-fluid"
+              src="{{ partner.logo | absolute_url }}"
+              alt="{{ partner.name }}"
+              title="{{ partner.name }}"
+            />
+          </figure>
+        </a>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
