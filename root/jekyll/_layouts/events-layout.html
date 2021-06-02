@@ -3,7 +3,7 @@
 
 <head>
     {% include collection-head.html %}
-<link href="../site.fc8c7ea83be530a4992f.min.css" rel="stylesheet"></head>
+<link href="../site.dfa6bcec53c7391ba34c.min.css" rel="stylesheet"></head>
 
 <body>
     {% include navbar.html %}
@@ -14,7 +14,7 @@
             </div>
             <div
                 class="d-flex flex-column align-items-center col-sm-11 col-md-8 col-lg-7 d-flex flex-column justify-content-center mx-auto shadow bg-white rounded p-3">
-                <h1 class="text-center section-header underline mb-3">{{ page.title }}</h1>
+                {% if page.hideTitle != true %}<h1 class="text-center section-header underline mb-3">{{ page.title }}</h1>{%endif%}
                 {% if page.description %}
                 <div class="text-muted py-3 px-3">
                     {{ page.description | smartify | markdownify }}
