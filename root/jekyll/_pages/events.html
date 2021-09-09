@@ -31,12 +31,18 @@ permalink: events.html
   </div>
 </section>
 <section class="py-5">
-  {% capture nowUnix %} {{ site.time | date: "%s" }} {% endcapture %} {% assign
-  upcomingEventsArr = "" | split:',' %} {% assign pastEventsArr = "" | split:
-  ',' %} {% assign sorted = site.events | sort: 'start_date',"last" %} {% for
-  event in sorted %} {% if event.isActive %} {% assign upcomingEventsArr =
-  upcomingEventsArr | push: event %} {%else%} {% capture eventDate %} {{
-  event.start_date | date: "%s" }} {% endcapture %} {% if nowUnix < eventDate %}
+  {% capture nowUnix %} {{ site.time | date: "%s" }} {% endcapture %} 
+  {% assign upcomingEventsArr = "" | split:',' %} 
+  {% assign pastEventsArr = "" | split:  ',' %} 
+  {% assign sorted = site.events | sort: 'start_date',"last" %} 
+  {% for event in sorted %} 
+  {% if event.isActive %} 
+    {% assign upcomingEventsArr = upcomingEventsArr | push: event %} 
+  {%else%} 
+    {% capture eventDate %} 
+    {{ event.start_date | date: "%s" }} 
+    {% endcapture %} 
+  {% if nowUnix < eventDate %}
   {% assign upcomingEventsArr = upcomingEventsArr | push: event %} {% else %} {%
   if event.end_date %} {% capture eventEndDate %} {{ event.end_date | date: "%s"
   }}{% endcapture %} {% if nowUnix < eventEndDate %} {% assign upcomingEventsArr
@@ -118,7 +124,7 @@ permalink: events.html
         <div class="card h-100">
           {%-capture image-%}{{ event.image | split: "/" | last
           }}{%-endcapture-%} {% include img_srcset.html class="card-img-top"
-          style="height:250px" alt=event.title filename=image %}
+          style="height:250px; object-fit: contain!important" alt=event.title filename=image %}
           <div
             class="card-body text-center d-flex flex-column justify-content-between"
           >
@@ -149,7 +155,7 @@ permalink: events.html
               {%else%}
               <a
                 href="{{ event.url }}"
-                class="btn disabled btn-secondary text-uppercase mt-2 stretched-link"
+                class="btn btn-secondary text-uppercase mt-2 stretched-link"
                 >View</a
               >
               {%endif%}
@@ -159,9 +165,10 @@ permalink: events.html
       </div>
       {% endfor %}
     </div>
-    {% endif %} {% assign pastEventsSize = pastEventsArr | size %} {% if
+    {% endif %} {% assign pastEventsSize = pastEventsArr |  where_exp:"item",
+    "item.show == true" | size %} {% if
     pastEventsSize > 0 %}
-    <p class="lead m-0">Past Events</p>
+    <p class="lead m-0">Past Events {{pastEventsSize}}</p>
     <div class="row">
       {% for event in pastEventsArr %} {% if event.show %}
       <div class="col-sm-12 col-md-6 col-lg-4 my-2">
