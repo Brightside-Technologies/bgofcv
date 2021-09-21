@@ -168,7 +168,7 @@ permalink: events.html
     {% endif %} {% assign pastEventsSize = pastEventsArr |  where_exp:"item",
     "item.show == true" | size %} {% if
     pastEventsSize > 0 %}
-    <p class="lead m-0">Past Events {{pastEventsSize}}</p>
+    <p class="lead m-0">Past Events</p>
     <div class="row">
       {% for event in pastEventsArr %} {% if event.show %}
       <div class="col-sm-12 col-md-6 col-lg-4 my-2">
