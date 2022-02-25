@@ -20,6 +20,8 @@ permalink: events.html
     <h1 class="text-center section-header underline">{{ page.title }}</h1>
     <div class="lead pt-3 px-3">{{ page.description | markdownify }}</div>
     <div class="d-flex py-2 justifu-content-center">
+      {%- comment -%} TODO: Add after auction event {%- endcomment -%} {%-
+      comment -%}
       <a
         class="btn btn-secondary text-uppercase"
         target="_blank"
@@ -27,22 +29,17 @@ permalink: events.html
         href="{{ page.subscribeLink }}"
         >Sign Up</a
       >
+      {%- endcomment -%}
     </div>
   </div>
 </section>
 <section class="py-5">
-  {% capture nowUnix %} {{ site.time | date: "%s" }} {% endcapture %} 
-  {% assign upcomingEventsArr = "" | split:',' %} 
-  {% assign pastEventsArr = "" | split:  ',' %} 
-  {% assign sorted = site.events | sort: 'start_date',"last" %} 
-  {% for event in sorted %} 
-  {% if event.isActive %} 
-    {% assign upcomingEventsArr = upcomingEventsArr | push: event %} 
-  {%else%} 
-    {% capture eventDate %} 
-    {{ event.start_date | date: "%s" }} 
-    {% endcapture %} 
-  {% if nowUnix < eventDate %}
+  {% capture nowUnix %} {{ site.time | date: "%s" }} {% endcapture %} {% assign
+  upcomingEventsArr = "" | split:',' %} {% assign pastEventsArr = "" | split:
+  ',' %} {% assign sorted = site.events | sort: 'start_date',"last" %} {% for
+  event in sorted %} {% if event.isActive %} {% assign upcomingEventsArr =
+  upcomingEventsArr | push: event %} {%else%} {% capture eventDate %} {{
+  event.start_date | date: "%s" }} {% endcapture %} {% if nowUnix < eventDate %}
   {% assign upcomingEventsArr = upcomingEventsArr | push: event %} {% else %} {%
   if event.end_date %} {% capture eventEndDate %} {{ event.end_date | date: "%s"
   }}{% endcapture %} {% if nowUnix < eventEndDate %} {% assign upcomingEventsArr
@@ -65,11 +62,7 @@ permalink: events.html
             !important;" alt=nextEvent.title filename=image %}
           </div>
           <div
-            style="
-              z-index: 3;
-              margin-left: 4%;
-              margin-right: 4%;
-            "
+            style="z-index: 3; margin-left: 4%; margin-right: 4%"
             class="card-body shadow text-center bg-white"
           >
             <span class="text-muted text-uppercase font-weight-bold"
@@ -97,18 +90,28 @@ permalink: events.html
             <p class="text-muted my-1">{{ nextEvent.address }}</p>
             {%endif%}
             <div class="pt-2 d-flex justify-content-center">
+              {% if nextEvent.url contains "grandest-auction" %}
+              <a
+                href="https://secure.maestroweb.com/default.aspx?OrgID=1648"
+                class="btn-lg btn-secondary btn text-uppercase"
+                target="_blank"
+                rel="noopener"
+                >View More</a
+              >
+              {% else %}
               <a
                 href="{{ nextEvent.url }}"
                 class="btn-lg btn-secondary btn text-uppercase"
                 >View More</a
               >
-              {% if nextEvent.url contains "southern-growers" %}
+              {%endif%} {% if nextEvent.url contains "southern-growers" %}
               <a
                 href="/assets/2021-swg-pairings.pdf"
                 class="btn-lg btn-dark btn text-uppercase ml-1"
                 >2021 SWG Pairings</a
               >
               {%endif%}
+              <!-- TODO: remove after event -->
             </div>
           </div>
         </div>
@@ -124,7 +127,8 @@ permalink: events.html
         <div class="card h-100">
           {%-capture image-%}{{ event.image | split: "/" | last
           }}{%-endcapture-%} {% include img_srcset.html class="card-img-top"
-          style="height:250px; object-fit: contain!important" alt=event.title filename=image %}
+          style="height:250px; object-fit: contain!important" alt=event.title
+          filename=image %}
           <div
             class="card-body text-center d-flex flex-column justify-content-between"
           >
@@ -165,9 +169,8 @@ permalink: events.html
       </div>
       {% endfor %}
     </div>
-    {% endif %} {% assign pastEventsSize = pastEventsArr |  where_exp:"item",
-    "item.show == true" | size %} {% if
-    pastEventsSize > 0 %}
+    {% endif %} {% assign pastEventsSize = pastEventsArr | where_exp:"item",
+    "item.show == true" | size %} {% if pastEventsSize > 0 %}
     <p class="lead m-0">Past Events</p>
     <div class="row">
       {% for event in pastEventsArr %} {% if event.show %}
