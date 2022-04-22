@@ -48,8 +48,8 @@ permalink: ways-to-give.html
           />
           <div class="card-img-overlay">
             <a
-            target="_blank"
-            rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.amazon.com/gp/f.html?C=GHX59XMR10T2&K=2I3Y24J5WH6AK&M=urn:rtn:msg:20171106150322d84625602d164237817787092380p0na&R=328CP6WVMOR9K&T=C&U=http%3A%2F%2Fsmile.amazon.com%2Fch%2F95-6122699&A=O35CWAPLE9IKEXRIFOSNSVSRCA8A&H=90S8F6FMJ5H9VP4L0CM4C4SA2AKA"
               class="stretched-link"
             ></a>
@@ -295,6 +295,7 @@ permalink: ways-to-give.html
       <div
         class="col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex flex-column py-2 align-items-center justify-content-center"
       >
+        {% if partner.url %}
         <a href="{{ partner.url }}" target="_blank" rel="noopener noreferrer">
           <figure
             style="
@@ -314,6 +315,25 @@ permalink: ways-to-give.html
             />
           </figure>
         </a>
+        {% else %}
+        <figure
+          style="
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+          "
+        >
+          <img
+            style="width: 100%; height: 100%; object-fit: scale-down"
+            class="img-fluid"
+            src="{{ partner.logo | absolute_url }}"
+            alt="{{ partner.name }}"
+            title="{{ partner.name }}"
+          />
+        </figure>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
