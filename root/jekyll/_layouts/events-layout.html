@@ -3,7 +3,7 @@
 
 <head>
     {% include collection-head.html %}
-<link href="../site.9c79c38c86f0e672a9b1.min.css" rel="stylesheet"></head>
+<link href="../site.3bac94fe78820b4030a9.min.css" rel="stylesheet"></head>
 
 <body>
     {% include navbar.html %}
@@ -21,7 +21,11 @@
                 </div>
                 {% endif %}
                 <div class="d-flex justify-content-center align-items-center">
-                    <p class="my-1">{{ page.start_date | date: "%a, %b %d, %Y" }}</p>
+                    {% if page.shortDate %}
+                        <p class="my-1">{{ page.start_date | date: "%b %Y" }}</p>
+                    {% else %}
+                        <p class="my-1">{{ page.start_date | date: "%a, %b %d, %Y" }}</p>
+                    {% endif %}
                     {% if page.end_date and page.end_date != "" and page.end_date != "Invalid date" %}
                     &nbsp; &ndash; &nbsp;
                     <p class="my-1">{{ page.end_date | date: "%a, %b %d, %Y" }}</p>
@@ -90,7 +94,7 @@
                     </div>
                 </div>
                 {% endif %}
-                {% if page.address or page.location or page.time %}
+                {% if page.address or page.location or page.time and page.dontShowDetails != true %}
                 <div class="row py-3">
                     <div class="col-sm-12">
                         <h2 class="section-header">Details</h2>
