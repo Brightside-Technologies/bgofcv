@@ -1,67 +1,58 @@
 {
-    "staff": [
-        {
-            "name": "Quinton Egson",
-            "title": "President & CEO",
-            "email": "qegson@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "107"
-            }
-        },
-        {
-            "name": "Tony Williams",
-            "title": "Director of Operations",
-            "email": "twilliams@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "108"
-            }
-        },
-        {
-            "name": "Bridget Kerr",
-            "title": "Director of Special Events",
-            "email": "bkerr@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "105"
-            }
-        },
-        {
-            "name": "Jody Brazil",
-            "title": "Director of Finance",
-            "email": "jbrazil@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "104"
-            }
-        },
-        {
-            "name": "Sharon O'Donnell",
-            "title": "Development Assistant",
-            "email": "sodonnell@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "111"
-            }
-        },
-        {
-            "name": "Susan Ogrodnick",
-            "title": "Special Events Coordinator",
-            "email": "sogrodnick@bgcofcv.org",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "101"
-            }
-        },
-        {
-            "name": "Jennifer Braun",
-            "title": "Grants Manager",
-            "email": "",
-            "phone": {
-                "number": "760-836-1160",
-                "extension": "103"
-            }
-        }
-    ]
+  "staff": [
+    {
+      "name": "Quinton Egson",
+      "title": "President & CEO",
+      "email": "qegson@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "107"
+      }
+    },
+    {
+      "name": "Tony Williams",
+      "title": "Director of Operations",
+      "email": "twilliams@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "108"
+      }
+    },
+    {
+      "name": "Bridget Kerr",
+      "title": "Director of Special Events",
+      "email": "bkerr@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "105"
+      }
+    },
+    {
+      "name": "Jody Brazil",
+      "title": "Director of Finance",
+      "email": "jbrazil@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "104"
+      }
+    },
+    {
+      "name": "Sharon O'Donnell",
+      "title": "Development Assistant",
+      "email": "sodonnell@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "111"
+      }
+    },
+    {
+      "name": "Susan Ogrodnick",
+      "title": "Special Events Coordinator",
+      "email": "sogrodnick@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "101"
+      }
+    }
+  ]
 }

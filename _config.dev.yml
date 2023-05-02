@@ -12,6 +12,7 @@ include:
   - _dev_admin
 exclude:
   - admin
+  - _pages/virtual-club
 plugins:
   - jemoji
   - jekyll-sitemap
