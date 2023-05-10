@@ -85,7 +85,9 @@ permalink: events.html
               {% endif %} {% if nextEvent.end_date and nextEvent.end_date != ""
               and nextEvent.end_date != "Invalid date" %} &nbsp; &ndash; &nbsp;
               <p class="text-muted my-1">
-                {{ nextEvent.end_date | date: "%a, %b %d, %Y" }}
+                {% if nextEvent.shortDate %} {{ nextEvent.end_date | date: "%b
+                %Y" }} {% else %} {{ nextEvent.end_date | date: "%a, %b %d, %Y"
+                }} {% endif %}
               </p>
               {% endif %}
             </div>
@@ -111,7 +113,7 @@ permalink: events.html
               >
               {%endif%} {% if nextEvent.url contains "southern-growers" %}
               <a
-                href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E331203&id=60"
+                href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E331203&id=61"
                 target="_blank"
                 rel="noopener"
                 class="btn-lg btn-dark btn text-uppercase ml-1"
