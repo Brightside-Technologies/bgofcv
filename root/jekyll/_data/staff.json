@@ -44,6 +44,15 @@
         "number": "760-836-1160",
         "extension": "101"
       }
+    },
+    {
+      "name": "Rose Smith",
+      "title": "Special Events Coordinator",
+      "email": "rsmith@bgcofcv.org",
+      "phone": {
+        "number": "760-836-1160",
+        "extension": "111"
+      }
     }
   ]
 }
