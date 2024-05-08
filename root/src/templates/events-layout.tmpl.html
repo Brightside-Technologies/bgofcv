@@ -165,6 +165,7 @@
                         <p>For more information, please contact:</p>
                         <div class="card bg-light">
                             <div class="card-body">
+                                {% if page.contact.name != null %}
                                 {% assign nameArray = page.contact.name | split: " " %}
                                 {% assign firstLetter =
                                     nameArray | first | slice: 0 %}
@@ -185,6 +186,7 @@
                                         {% endif %}
                                     </div>
                                 </div>
+                                {% endif %}
                                 {% if page.contact.phone != null%}
                                 <div class="d-flex py-1">
                                     <div>
